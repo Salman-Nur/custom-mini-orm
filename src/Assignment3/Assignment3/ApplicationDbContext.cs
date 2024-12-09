@@ -10,7 +10,7 @@ namespace Assignment3
 
         public ApplicationDbContext()
         {
-            _connectionString = "Server= .\\SQLEXPRESS;Database=AspnetB9;User Id=aspnetb9;Password=123456;TrustServerCertificate=True";
+            _connectionString = "Server= .\\SQLEXPRESS;Database=MiniORM;User Id=miniorm;Password=123456;TrustServerCertificate=True";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

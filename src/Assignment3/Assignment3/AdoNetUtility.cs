@@ -17,7 +17,7 @@ namespace Assignment3
         private readonly int _timeout;
         public AdoNetUtility(int timeout = 0)
         {
-            _connection = new SqlConnection("Server= .\\SQLEXPRESS;Database=AspnetB9;User Id=aspnetb9;Password=123456;TrustServerCertificate=True");
+            _connection = new SqlConnection("Server= .\\SQLEXPRESS;Database=MiniORM;User Id=miniorm;Password=123456;TrustServerCertificate=True");
             _timeout = timeout;
         }
         public List<DbCommand> WriteOperation(string sql, IList<DbParameter> parameters, List<DbCommand> commands)
